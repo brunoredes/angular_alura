@@ -1,0 +1,16 @@
+{
+  "name": "alurabank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "start": "tsc -w"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0"
+  }
+}
