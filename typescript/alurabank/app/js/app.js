@@ -1,2 +1,2 @@
-const negociation = new Negociation(new Date(), 1, 100);
-console.log(negociation.quantity);
+const controller = new NegociationController();
+document.querySelector('.form').addEventListener('submit', controller.add.bind(controller));
